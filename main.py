@@ -61,11 +61,11 @@ Feels Like Temp (Evening): {feels_like_evening}
 Feels Like Temp (Night): {feels_like_night}
 """
 
-phone_numbers = ['+18137317129', '+16094104124']
+phone_numbers = ['+11233456789', '+11233456789']
 for phone_number in phone_numbers:
     message = client.messages \
                     .create(
                          body=message_body,
-                         from_='+12627472635',
+                         from_='+11233456789',
                          to=phone_number
                      )
